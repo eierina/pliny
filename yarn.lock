@@ -251,6 +251,37 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@block0/pliny@workspace:packages/pliny":
+  version: 0.0.0-use.local
+  resolution: "@block0/pliny@workspace:packages/pliny"
+  dependencies:
+    "@docsearch/react": ^3.5.0
+    "@giscus/react": ^3.0.0
+    "@mailchimp/mailchimp_marketing": ^3.0.80
+    "@types/copyfiles": ^2
+    contentlayer2: ^0.4.6
+    copyfiles: ^2.4.1
+    github-slugger: ^2.0.0
+    js-yaml: 4.1.0
+    kbar: 0.1.0-beta.45
+    next: 14.1.4
+    next-contentlayer2: ^0.4.6
+    next-themes: ^0.3.0
+    probe-image-size: ^7.2.3
+    react: 18.2.0
+    react-dom: 18.2.0
+    remark: ^15.0.0
+    rimraf: ^3.0.2
+    tsup: 8.0.2
+    typescript: ^5.1.6
+    unist-util-visit: ^5.0.0
+  peerDependencies:
+    next: ">=13.0.0"
+    react: ^17.0.2 || ^18.0.0
+    react-dom: ^17.0.2 || ^18.0.0
+  languageName: unknown
+  linkType: soft
+
 "@changesets/apply-release-plan@npm:^6.1.4":
   version: 6.1.4
   resolution: "@changesets/apply-release-plan@npm:6.1.4"
@@ -8246,37 +8277,6 @@ __metadata:
   checksum: 4b305c834b912ddcc8a0fe77530c0b0321fe340396f84cbb87aecdbc126606f47f2178f23b8639e71a4870f9631c7217aef52ffed0ae17ea2dbbe7e43d116a6e
   languageName: node
   linkType: hard
-
-"pliny@workspace:packages/pliny":
-  version: 0.0.0-use.local
-  resolution: "pliny@workspace:packages/pliny"
-  dependencies:
-    "@docsearch/react": ^3.5.0
-    "@giscus/react": ^3.0.0
-    "@mailchimp/mailchimp_marketing": ^3.0.80
-    "@types/copyfiles": ^2
-    contentlayer2: ^0.4.6
-    copyfiles: ^2.4.1
-    github-slugger: ^2.0.0
-    js-yaml: 4.1.0
-    kbar: 0.1.0-beta.45
-    next: 14.1.4
-    next-contentlayer2: ^0.4.6
-    next-themes: ^0.3.0
-    probe-image-size: ^7.2.3
-    react: 18.2.0
-    react-dom: 18.2.0
-    remark: ^15.0.0
-    rimraf: ^3.0.2
-    tsup: 8.0.2
-    typescript: ^5.1.6
-    unist-util-visit: ^5.0.0
-  peerDependencies:
-    next: ">=13.0.0"
-    react: ^17.0.2 || ^18.0.0
-    react-dom: ^17.0.2 || ^18.0.0
-  languageName: unknown
-  linkType: soft
 
 "postcss-load-config@npm:^4.0.1":
   version: 4.0.1
